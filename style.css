@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #11111d;
+    height: 100vh;
+}
+
+header{
+    background-color: #11111d;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    border-bottom: 2px solid #0a7b0a;
+    box-shadow: 0px 5px 100px rgb(10, 10, 10);
+}
+
+.razerlogo{
+    height: 50px;
+    margin-top: 18px;
+    transition: .3s ease;
+}
+
+.logo a .razerlogo:hover{
+    transform: scale(1.01);
+}
+
+.navbar li a {
+    color: #d8d8d8;
+    text-decoration: none;
+    margin: 28px;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    transition: .4s ease;
+}
+
+.navbar li a:hover{
+    color: #17bd17;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar i{
+    text-align: center;
+    font-size: 20px;
+    margin-right: 8px;
+    margin-top: 3px;
+}
+
+.pcvideo video{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 1%;
+}
+
+.pcinfo h1{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 200%;
+}
+
+.pcinfo h2{
+    color: #0da10d;
+    margin-top: -1%;
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+}
+
+.pcmore p{
+    color: white;
+    margin-top: 2%;
+    padding: 0 10%;
+}
+
+.pcinfo2 h1{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 200%;
+}
+
+.pcinfo2 h2{
+    color: #0da10d;
+    margin-top: -1%;
+    display: flex;
+    justify-content: center;
+    font-size: 300%;
+}
+
+.pcinfo2 h2 a{
+    text-decoration: none;
+    color: #0da10d;
+    transition: .2s ease;
+}
+
+.pcinfo2 h2 a:hover{
+    color: #00ff00;
+}
+
+.pcinfo h2 a{
+    text-decoration: none;
+    color: #0da10d;
+    transition: .2s ease;
+}
+
+.pcinfo h2 a:hover{
+    color: #00ff00;
+}
+
+.card-title{
+    color: #0da10d;
+}
+
+.card-descr{
+    color: rgb(128, 128, 128);
+    font-size: 80%;
+    line-height: 100%;
+}
+
+.card-price{
+    color: white;
+    margin-top: 10%;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card{
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(20, 20, 20);
+    backdrop-filter: blur(2.7px);
+    -webkit-backdrop-filter: blur(2.7px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1.5%;
+    width: 20%;
+    transition: 0.5s ease;
+}
+
+.card:hover{
+    transform: scale(1.01);
+    box-shadow: 0 4px 15px #00ff00;
+}
+
+.container{
+    margin: 1%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+.popular h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 250%;
+}
+
+footer{
+    border-top: 2px solid #0a7b0a;
+    margin: 0 10.5%;
+    height: 10%;
+}
+
+.logofooter a img{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.copyright p{
+    color: white;
+    font-size: 65%;
+    text-align: center;
+    margin-bottom: 0.1%;
+}
+
+.navfoot{
+    width: 20%;
+    margin-left: 40%;
+}
+
+@media (max-width: 1536px) {
+    .card-price{
+        color: white;
+        margin-top: 13%;
+    }
+    .card-title{
+        font-size: 15px;
+    }
+    .card-descr{
+        color: rgb(128, 128, 128);
+        font-size: 60%;
+        line-height: 100%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .card-title{
+        color: #0da10d;
+        font-size: 15px;
+    }
+
+    .card-descr{
+        color: rgb(128, 128, 128);
+        font-size: 60%;
+        line-height: 100%;
+    }
+}
+
+@media (max-width: 1075px) {
+    .card-title{
+        color: #0da10d;
+        font-size: 15px;
+    }
+
+    .card-descr{
+        color: rgb(128, 128, 128);
+        font-size: 50%;
+        line-height: 100%;
+    }
+
+    .pcinfo h1{
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        font-size: 150%;
+    }
+    
+    .pcinfo h2{
+        color: #0da10d;
+        margin-top: -1%;
+        display: flex;
+        justify-content: center;
+        font-size: 250%;
+    }
+
+    .pcinfo2 h1{
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        font-size: 150%;
+    }
+    
+    .pcinfo2 h2{
+        color: #0da10d;
+        margin-top: -1%;
+        display: flex;
+        justify-content: center;
+        font-size: 250%;
+    }
+
+    .logofooter a img{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+}
+
+@media (max-width: 900px) {
+    .card-title{
+        color: #0da10d;
+        font-size: 13px;
+    }
+
+    .card-descr{
+        color: rgb(128, 128, 128);
+        font-size: 40%;
+        line-height: 100%;
+    }
+
+    .logofooter a img{
+        width: 100%;
+        height: 50%;
+        margin-bottom: 5%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .card-title{
+        color: #0da10d;
+        font-size: 11px;
+    }
+
+    .card-descr{
+        color: rgb(128, 128, 128);
+        font-size: 40%;
+        line-height: 100%;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .logo{
+        width: 100%;
+    }
+
+    .razerlogo{
+        height: 50px;
+        margin-top: 18px;
+        transition: .3s ease;
+    }
+}
+
+@media (max-width: 722px){
+    .card-descr{
+        color: rgb(128, 128, 128);
+        font-size: 25%;
+        line-height: 100%;
+    }
+
+    .pcinfo h1{
+        font-size: 100%;
+    }
+    
+    .pcinfo h2{
+        font-size: 200%;
+    }
+
+    .pcinfo2 h1{
+        font-size: 100%;
+    }
+    
+    .pcinfo2 h2{
+        font-size: 200%;
+    }
+}
+
+@media (max-width: 675px){
+    
+    .pcinfo h1{
+        font-size: 100%;
+    }
+    
+    .pcinfo h2{
+        font-size: 150%;
+    }
+
+    .pcinfo2 h1{
+        font-size: 100%;
+    }
+    
+    .pcinfo2 h2{
+        font-size: 150%;
+    }
+
+    .card-descr{
+        font-size: 5px;
+        line-height: 100%;
+    }
+    .card-title{
+        font-size: 8px;
+    }
+
+    .card-price{
+        font-size: 10px;
+    }
+
+    .pcmore p{
+        font-size: 10px;
+    }
+
+    .popular h1{
+        font-size: 20px;
+    }
+}
+@media (max-width: 472px){
+    .card-title{
+        font-size: 6px;
+    }
+    .pcinfo h1{
+        font-size: 70%;
+    }
+    
+    .pcinfo h2{
+        font-size: 100%;
+    }
+
+    .pcinfo2 h1{
+        font-size: 70%;
+    }
+    
+    .pcinfo2 h2{
+        font-size: 100%;
+    }
+}
